@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/savageme6ix/Learning-Node/issues"
   },
-  "homepage": "https://github.com/savageme6ix/Learning-Node#readme"
+  "homepage": "https://github.com/savageme6ix/Learning-Node#readme",
+  "dependencies": {
+    "date-fns": "^4.4.0"
+  }
 }
