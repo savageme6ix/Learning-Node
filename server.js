@@ -1,8 +1,10 @@
-export function addition (a,b){
-    return a+b;
-}
-export function subtraction (a,b){
-    return a-b;
-}
+import http from 'node:http';
+const port = 8000;
 
-console.log("praise God")
+const server = http.createServer((req,res)=>{
+    res.end('hello world')
+})
+
+server.listen(port,()=>{
+    console.log(`Server running on port ${port}`);
+});
