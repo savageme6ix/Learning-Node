@@ -8,6 +8,6 @@ const server = http.createServer((req,res)=>{
     res.end(JSON.stringify({message:'Server error'}))
 })
 
-server.listen(port,()=>{
-    console.log(`Server running on port ${port}`);
-});
+// server.listen(port,()=>{
+//     console.log(`Server running on port ${port}`);
+// });
