@@ -1,4 +1,4 @@
-export const products = [
+ const products = [
   {
     id: "prod_01J8X",
     name: "QuantumFlux Wireless Earbuds",
@@ -31,7 +31,7 @@ export const products = [
   }
 ];
 
-export const people = [
+ const people = [
   {
     id: "usr_77A",
     firstName: "Elena",
@@ -65,3 +65,5 @@ export const people = [
     isActive: true
   }
 ];
+
+export {people,products}
