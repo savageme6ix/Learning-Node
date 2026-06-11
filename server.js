@@ -3,7 +3,7 @@ const app = express();
 import { products,people } from './app.js';
 
 app.get('/',(req,res)=>{
-    res.send('<h1>Home page</h1><a href="/api/products">products</a>')
+    res.send('<h1>Home page</h1>')
 })
 
 app.get('/api/products', (req,res)=>{
@@ -13,6 +13,7 @@ app.get('/api/products', (req,res)=>{
     })
     res.json(newProduct)
 })
+
 app.listen(5000, ()=>{
     console.log('Server on 5000')
 })
